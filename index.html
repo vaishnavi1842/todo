@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>	Todo task</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+   <body>
+     <div class="container mt-5	">
+	   <div class="row">
+	     <div class="col-md-6">
+		   <form id="todoForm">
+		     <div class="form-group">
+			  <label for="todo" class="display-4 text-white font-weight-bold">Todo Item</label>
+			   <input type="text" id="todo" class="form-control">
+			   <div class="text-right mt-3">
+			   <button class="btn btn-success">Add todo</button>
+			   </div>
+			 </div>
+		   </form>
+		 </div>
+		 <div class="col-md-6">
+		   <h2 class="display-4 text-white font-weight-bold">Todo List</h2 >
+		   <div id="todoContainer">
+		   </div>
+		 </div>
+	   </div>
+	 </div>
+	 
+	 
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
